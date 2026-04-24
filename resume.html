@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Резюме Frontend</title>
-    <link rel="icon" href="" type="image/png">
+    <link rel="icon" href="img/favikonka.png" type="image/png">
     <style>
         :root {
             --bg-color: #F8FAFC;
@@ -1284,7 +1284,7 @@
             <!-- Блок визуализации: Фото -->
             <div class="profile-visual">
                 <div class="photo-wrapper">
-                    <img src="" alt="Фото уставшей собаки" onclick="openModal(this.src)" loading="lazy">
+                    <img src="img/пес.webp" alt="Фото уставшей собаки" onclick="openModal(this.src)" loading="lazy">
                 </div>
             </div>
 
@@ -1347,7 +1347,7 @@
             <div class="about-content">
                 <div class="about-visual">
                     <figure>
-                        <img src="" alt="Фото" onclick="openModal(this.src)">
+                        <img src="img/гири.webp" alt="Собаня жмёт гирю и читает" onclick="openModal(this.src)">
                         <figcaption>Подпись 2</figcaption>
                     </figure>
                 </div>
@@ -1377,7 +1377,7 @@
             <div class="about-content">
                 <div class="about-visual">
                     <figure>
-                        <img src="" alt="Фото" onclick="openModal(this.src)">
+                        <img src="img/завод.webp" alt="Собаня на фоне плавильного цеха" onclick="openModal(this.src)">
                         <figcaption>Устойчив к выгоранию</figcaption>
                     </figure>
                 </div>
@@ -1405,7 +1405,7 @@
             <div class="about-content">
                 <div class="about-visual">
                     <figure>
-                        <img src="" alt="Фото" onclick="openModal(this.src)">
+                        <img src="img/учеба.webp" alt="Собаня в процесе обучения" onclick="openModal(this.src)">
                         <figcaption>Подпись 2</figcaption>
                     </figure>
                 </div>
@@ -1431,11 +1431,11 @@
         <div class="slider-container">
             <button class="nav-btn prev-btn" onclick="moveSlide(-1)">❮</button>
             <div class="slider-track" id="sliderTrack">
-                <div class="slide"><img src="" alt="1"></div>
-                <div class="slide"><img src="" alt="2"></div>
-                <div class="slide"><img src="" alt="3"></div>
-                <div class="slide"><img src="" alt="4"></div>
-                <div class="slide"><img src="" alt="5"></div>
+                <div class="slide"><img src="img/сертификат1.webp" alt="Сертификат по питону"></div>
+                <div class="slide"><img src="img/сертификат2.webp" alt="Второй сертификат по питону"></div>
+                <div class="slide"><img src="img/сертификат3.webp" alt="Сертификат html and css"></div>
+                <div class="slide"><img src="img/сертификат4.webp" alt="Сертификат JS"></div>
+                <div class="slide"><img src="img/сертификат5.webp" alt="Сертификат СофтСкилл"></div>
             </div>
             <button class="nav-btn next-btn" onclick="moveSlide(1)">❯</button>
         </div>
@@ -1448,7 +1448,7 @@
             <div class="about-content">
                 <div class="about-visual">
                     <figure>
-                        <img src="" alt="Фото" onclick="openModal(this.src)">
+                        <img src="img/софтскил.webp" alt="Ралостная собаня вызывается помочь" onclick="openModal(this.src)">
                         <figcaption>Год успешно менял воду в кулере</figcaption>
                     </figure>
                 </div>
@@ -1496,7 +1496,7 @@
             <div class="about-content">
                 <div class="about-visual">
                     <figure>
-                        <img src="" alt="Фото" onclick="openModal(this.src)">
+                        <img src="img/благодарности.webp" alt="Собаня в благодарной позе" onclick="openModal(this.src)">
                         <figcaption>Подпись 2</figcaption>
                     </figure>
                 </div>
@@ -1577,7 +1577,7 @@
 
             <div id="modalDogResultArea" class="modal-dog-result" style="display: none;">
                 <p id="modalDogResultText" class="modal-dog-res-text"></p>
-                <img id="modalDogImg" class="modal-dog-image" src="" alt="Собака в колпачке">
+                <img id="modalDogImg" class="modal-dog-image" src="img/тест_возраст.webp" alt="Собака в колпачке">
                 <button id="modalDogResetBtn" class="modal-dog-reset-button">Рассчитать снова</button>
             </div>
         </div>
@@ -1775,11 +1775,11 @@
         const oTicks = document.querySelectorAll('.offer-ticks span');
 
         const oData = [
-            { label: "No offer", img: "" },
-            { label: "80 т.р.", img: "" },
-            { label: "100 т.р.", img: "" },
-            { label: "120 т.р.", img: "" },
-            { label: "140 т.р.", img: "" }
+            { label: "No offer", img: "img/нет_офера.webp" },
+            { label: "80 т.р.", img: "img/80.webp" },
+            { label: "100 т.р.", img: "img/100.webp" },
+            { label: "120 т.р.", img: "img/120.webp" },
+            { label: "140 т.р.", img: "img/140.webp" }
         ];
 
         function updateOffer() {
