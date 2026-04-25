@@ -345,7 +345,7 @@
             if (age > 0 && age < 120) {
                 const dogYears = age * 7;
                 resultText.innerHTML = `В собачьем мире тебе бы исполнилось <br><b>${dogYears} ${getYearWord(dogYears)}!</b>`;
-                if (dogImg) dogImg.src = `тест_возраст.webp`;
+                if (dogImg) dogImg.src = `img/тест_возраст.webp`;
 
                 dogElements.form.style.display = "none";
                 dogElements.resultArea.style.display = "block";
